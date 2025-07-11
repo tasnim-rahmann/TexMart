@@ -2,6 +2,7 @@ from django.db import models
 from django.conf import settings
 from django.core.validators import MinValueValidator, MaxValueValidator
 from product.validators import validate_file_size
+from cloudinary.models import CloudinaryField
 
 
 class Category(models.Model):
@@ -23,7 +24,7 @@ class Product(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     class Meta:
-        ordering = ['-id',]
+        ordering = ['id',]
 
     def __str__(self):
         return self.name
@@ -32,10 +33,7 @@ class Product(models.Model):
 class ProductImage(models.Model):
     product = models.ForeignKey(
         Product, on_delete=models.CASCADE, related_name='images')
-    image = models.ImageField(
-        upload_to="products/images/", validators=[validate_file_size])
-    # file = models.FileField(upload_to="product/files",
-    #                         validators=FileExtensionValidator(['pdf']))
+    image = CloudinaryField('image')
 
 
 class Review(models.Model):
@@ -50,16 +48,3 @@ class Review(models.Model):
 
     def __str__(self):
         return f"Review by {self.user.first_name} on {self.product.name}"
-# step to build an API
-# Model
-# Serializer
-# Viewset
-# router
-
-
-# 2024:01:02 00:10:34
-"""
-<Product: Laptop> id, name
-product_id
-product_name
-"""

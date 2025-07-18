@@ -37,11 +37,11 @@
         "fields": {
             "name": "Smartphone",
             "description": "High-quality smartphone for everyday use.",
-            "price": "213.80",
-            "stock": 157,
+            "price": "299.99",
+            "stock": 150,
             "category": 1,
-            "created_at": "2025-02-05T02:45:04.629624",
-            "updated_at": "2025-02-08T02:45:04.629624"
+            "created_at": "2025-01-10T10:15:00.000000",
+            "updated_at": "2025-01-15T12:30:00.000000"
         }
     },
     {
@@ -57,12 +57,12 @@
         "pk": 2,
         "fields": {
             "name": "Laptop",
-            "description": "High-quality laptop for everyday use.",
-            "price": "46.92",
-            "stock": 174,
+            "description": "Powerful laptop for work and entertainment.",
+            "price": "849.50",
+            "stock": 120,
             "category": 1,
-            "created_at": "2025-02-02T15:45:04.629624",
-            "updated_at": "2025-02-02T15:45:04.629624"
+            "created_at": "2025-02-05T09:00:00.000000",
+            "updated_at": "2025-02-07T14:20:00.000000"
         }
     },
     {
@@ -77,13 +77,13 @@
         "model": "product.product",
         "pk": 3,
         "fields": {
-            "name": "Wireless Headphones",
-            "description": "High-quality wireless headphones for everyday use.",
-            "price": "144.57",
-            "stock": 82,
+            "name": "Wireless Earbuds",
+            "description": "Compact wireless earbuds with noise cancellation.",
+            "price": "129.99",
+            "stock": 200,
             "category": 1,
-            "created_at": "2025-02-07T11:45:04.629624",
-            "updated_at": "2025-02-09T11:45:04.629624"
+            "created_at": "2025-02-15T13:30:00.000000",
+            "updated_at": "2025-02-18T16:45:00.000000"
         }
     },
     {
@@ -99,12 +99,12 @@
         "pk": 4,
         "fields": {
             "name": "Smartwatch",
-            "description": "High-quality smartwatch for everyday use.",
-            "price": "339.21",
-            "stock": 74,
+            "description": "Feature-rich smartwatch for fitness and productivity.",
+            "price": "249.75",
+            "stock": 95,
             "category": 1,
-            "created_at": "2025-01-23T08:45:04.629624",
-            "updated_at": "2025-01-28T08:45:04.629624"
+            "created_at": "2025-01-20T08:45:00.000000",
+            "updated_at": "2025-01-25T11:00:00.000000"
         }
     },
     {
@@ -119,13 +119,13 @@
         "model": "product.product",
         "pk": 5,
         "fields": {
-            "name": "Tablet",
-            "description": "High-quality tablet for everyday use.",
-            "price": "417.98",
-            "stock": 49,
+            "name": "Gaming Console",
+            "description": "Next-gen gaming console with 4K support.",
+            "price": "499.00",
+            "stock": 60,
             "category": 1,
-            "created_at": "2025-02-19T19:45:04.629624",
-            "updated_at": "2025-02-23T19:45:04.629624"
+            "created_at": "2025-02-01T17:20:00.000000",
+            "updated_at": "2025-02-04T20:35:00.000000"
         }
     },
     {
@@ -141,12 +141,12 @@
         "pk": 6,
         "fields": {
             "name": "Bluetooth Speaker",
-            "description": "High-quality bluetooth speaker for everyday use.",
-            "price": "245.54",
-            "stock": 41,
+            "description": "Portable speaker with excellent sound quality.",
+            "price": "79.95",
+            "stock": 180,
             "category": 1,
-            "created_at": "2025-01-26T14:45:04.629624",
-            "updated_at": "2025-01-28T14:45:04.629624"
+            "created_at": "2025-01-12T14:10:00.000000",
+            "updated_at": "2025-01-14T16:20:00.000000"
         }
     },
     {
@@ -161,13 +161,13 @@
         "model": "product.product",
         "pk": 7,
         "fields": {
-            "name": "Digital Camera",
-            "description": "High-quality digital camera for everyday use.",
-            "price": "239.33",
-            "stock": 41,
-            "category": 1,
-            "created_at": "2025-02-08T04:45:04.629624",
-            "updated_at": "2025-02-11T04:45:04.629624"
+            "name": "Men's T-Shirt",
+            "description": "Casual cotton t-shirt in various sizes.",
+            "price": "19.99",
+            "stock": 250,
+            "category": 2,
+            "created_at": "2025-01-18T10:30:00.000000",
+            "updated_at": "2025-01-20T12:15:00.000000"
         }
     },
     {
@@ -182,13 +182,13 @@
         "model": "product.product",
         "pk": 8,
         "fields": {
-            "name": "Gaming Console",
-            "description": "High-quality gaming console for everyday use.",
-            "price": "109.55",
-            "stock": 43,
-            "category": 1,
-            "created_at": "2025-02-08T08:45:04.629624",
-            "updated_at": "2025-02-11T08:45:04.629624"
+            "name": "Women's Jeans",
+            "description": "Slim-fit denim jeans for a stylish look.",
+            "price": "39.95",
+            "stock": 180,
+            "category": 2,
+            "created_at": "2025-01-22T09:50:00.000000",
+            "updated_at": "2025-01-24T11:45:00.000000"
         }
     },
     {
@@ -196,6 +196,342 @@
         "pk": 8,
         "fields": {
             "product": 8,
+            "image": null
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 9,
+        "fields": {
+            "name": "Leather Jacket",
+            "description": "Premium leather jacket for all seasons.",
+            "price": "120.00",
+            "stock": 75,
+            "category": 2,
+            "created_at": "2025-02-05T14:20:00.000000",
+            "updated_at": "2025-02-08T17:00:00.000000"
+        }
+    },
+    {
+        "model": "product.productimage",
+        "pk": 9,
+        "fields": {
+            "product": 9,
+            "image": null
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 10,
+        "fields": {
+            "name": "Sneakers",
+            "description": "Comfortable and stylish sneakers for everyday wear.",
+            "price": "59.99",
+            "stock": 140,
+            "category": 2,
+            "created_at": "2025-02-10T12:00:00.000000",
+            "updated_at": "2025-02-12T14:10:00.000000"
+        }
+    },
+    {
+        "model": "product.productimage",
+        "pk": 10,
+        "fields": {
+            "product": 10,
+            "image": null
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 11,
+        "fields": {
+            "name": "Formal Shirt",
+            "description": "Classic formal shirt suitable for office wear.",
+            "price": "29.50",
+            "stock": 200,
+            "category": 2,
+            "created_at": "2025-01-28T15:30:00.000000",
+            "updated_at": "2025-01-30T18:20:00.000000"
+        }
+    },
+    {
+        "model": "product.productimage",
+        "pk": 11,
+        "fields": {
+            "product": 11,
+            "image": null
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 12,
+        "fields": {
+            "name": "Dress",
+            "description": "Elegant evening dress with a modern design.",
+            "price": "89.00",
+            "stock": 60,
+            "category": 2,
+            "created_at": "2025-02-15T11:45:00.000000",
+            "updated_at": "2025-02-17T13:10:00.000000"
+        }
+    },
+    {
+        "model": "product.productimage",
+        "pk": 12,
+        "fields": {
+            "product": 12,
+            "image": null
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 13,
+        "fields": {
+            "name": "Microwave Oven",
+            "description": "Compact microwave oven with multiple settings.",
+            "price": "150.00",
+            "stock": 40,
+            "category": 3,
+            "created_at": "2025-02-03T10:20:00.000000",
+            "updated_at": "2025-02-05T12:15:00.000000"
+        }
+    },
+    {
+        "model": "product.productimage",
+        "pk": 13,
+        "fields": {
+            "product": 13,
+            "image": null
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 14,
+        "fields": {
+            "name": "Refrigerator",
+            "description": "Energy-efficient refrigerator with large capacity.",
+            "price": "599.99",
+            "stock": 30,
+            "category": 3,
+            "created_at": "2025-01-12T09:00:00.000000",
+            "updated_at": "2025-01-15T11:10:00.000000"
+        }
+    },
+    {
+        "model": "product.productimage",
+        "pk": 14,
+        "fields": {
+            "product": 14,
+            "image": null
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 15,
+        "fields": {
+            "name": "Air Conditioner",
+            "description": "Split AC with fast cooling technology.",
+            "price": "750.00",
+            "stock": 25,
+            "category": 3,
+            "created_at": "2025-02-08T13:30:00.000000",
+            "updated_at": "2025-02-10T15:40:00.000000"
+        }
+    },
+    {
+        "model": "product.productimage",
+        "pk": 15,
+        "fields": {
+            "product": 15,
+            "image": null
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 16,
+        "fields": {
+            "name": "Washing Machine",
+            "description": "Top-load washing machine with smart inverter.",
+            "price": "400.50",
+            "stock": 35,
+            "category": 3,
+            "created_at": "2025-01-22T17:00:00.000000",
+            "updated_at": "2025-01-25T19:30:00.000000"
+        }
+    },
+    {
+        "model": "product.productimage",
+        "pk": 16,
+        "fields": {
+            "product": 16,
+            "image": null
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 17,
+        "fields": {
+            "name": "Vacuum Cleaner",
+            "description": "Lightweight vacuum cleaner with powerful suction.",
+            "price": "99.99",
+            "stock": 50,
+            "category": 3,
+            "created_at": "2025-02-12T11:20:00.000000",
+            "updated_at": "2025-02-14T13:40:00.000000"
+        }
+    },
+    {
+        "model": "product.productimage",
+        "pk": 17,
+        "fields": {
+            "product": 17,
+            "image": null
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 18,
+        "fields": {
+            "name": "Dishwasher",
+            "description": "Efficient dishwasher with multiple wash programs.",
+            "price": "499.00",
+            "stock": 28,
+            "category": 3,
+            "created_at": "2025-01-30T08:15:00.000000",
+            "updated_at": "2025-02-01T10:25:00.000000"
+        }
+    },
+    {
+        "model": "product.productimage",
+        "pk": 18,
+        "fields": {
+            "product": 18,
+            "image": null
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 19,
+        "fields": {
+            "name": "Fiction Novel",
+            "description": "Bestselling fiction novel with engaging storyline.",
+            "price": "12.99",
+            "stock": 300,
+            "category": 4,
+            "created_at": "2025-02-05T14:10:00.000000",
+            "updated_at": "2025-02-07T16:30:00.000000"
+        }
+    },
+    {
+        "model": "product.productimage",
+        "pk": 19,
+        "fields": {
+            "product": 19,
+            "image": null
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 20,
+        "fields": {
+            "name": "Science Textbook",
+            "description": "Comprehensive science textbook for high school students.",
+            "price": "29.50",
+            "stock": 150,
+            "category": 4,
+            "created_at": "2025-01-18T11:45:00.000000",
+            "updated_at": "2025-01-20T13:55:00.000000"
+        }
+    },
+    {
+        "model": "product.productimage",
+        "pk": 20,
+        "fields": {
+            "product": 20,
+            "image": null
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 21,
+        "fields": {
+            "name": "Cooking Recipe Book",
+            "description": "A collection of delicious recipes from around the world.",
+            "price": "19.95",
+            "stock": 220,
+            "category": 4,
+            "created_at": "2025-02-10T09:20:00.000000",
+            "updated_at": "2025-02-12T11:30:00.000000"
+        }
+    },
+    {
+        "model": "product.productimage",
+        "pk": 21,
+        "fields": {
+            "product": 21,
+            "image": null
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 22,
+        "fields": {
+            "name": "Children's Storybook",
+            "description": "Illustrated storybook for young readers.",
+            "price": "8.50",
+            "stock": 400,
+            "category": 4,
+            "created_at": "2025-01-25T15:00:00.000000",
+            "updated_at": "2025-01-27T17:15:00.000000"
+        }
+    },
+    {
+        "model": "product.productimage",
+        "pk": 22,
+        "fields": {
+            "product": 22,
+            "image": null
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 23,
+        "fields": {
+            "name": "History Book",
+            "description": "Detailed history book covering ancient civilizations.",
+            "price": "24.99",
+            "stock": 180,
+            "category": 4,
+            "created_at": "2025-02-15T13:50:00.000000",
+            "updated_at": "2025-02-17T16:05:00.000000"
+        }
+    },
+    {
+        "model": "product.productimage",
+        "pk": 23,
+        "fields": {
+            "product": 23,
+            "image": null
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 24,
+        "fields": {
+            "name": "Art Book",
+            "description": "Beautifully illustrated art book showcasing famous artists.",
+            "price": "34.95",
+            "stock": 90,
+            "category": 4,
+            "created_at": "2025-01-30T10:40:00.000000",
+            "updated_at": "2025-02-02T12:50:00.000000"
+        }
+    },
+    {
+        "model": "product.productimage",
+        "pk": 24,
+        "fields": {
+            "product": 24,
             "image": null
         }
     }
